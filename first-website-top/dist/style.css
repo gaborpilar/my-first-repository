@@ -1,0 +1,105 @@
+#content {
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+ 
+}
+ img {
+   width: 100%;
+  
+}
+
+#main-h2 {
+  position: absolute;
+  bottom: 20px;
+  text-transform: none;
+  
+  
+  
+}
+
+#pictext {
+  width: 60%;
+  margin: auto;
+}
+
+#anekin {
+  display: block;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 150%;
+}
+
+
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  margin-top: 40px
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  
+  color: #222;
+  margin-bottom: 2px;
+}
+
+h4 {
+  family-font: 'Merriweather';
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 5px;
+  
+}
+
+ul {
+  line-height: 150%;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  list-style-type: square;
+  margin-bottom: 40px;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 200%;
+  color: white;
+  position: relative;  
+  background-color: #222;
+  padding: 40px 30px;
+  margin: 0 -30px;
+  
+  }
+
+blockquote::before {
+  font-size: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content:  "\201C";
+  
+ 
+  
+  
+}
+
+hr {
+  height:3px;
+  border-width:0;
+  color:gray;
+  background-color:black;
+  
+}
